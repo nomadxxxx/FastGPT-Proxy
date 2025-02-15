@@ -64,5 +64,6 @@ Start server
 ```shell
 python3 app/server.py
 ```
-Note you can also you ```shellgunicorn --bind 0.0.0.0:5000 app.server:app```
+Note you can also you:
+```gunicorn --bind 0.0.0.0:5000 app.server:app```
 
