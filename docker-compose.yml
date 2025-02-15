@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  web:
+    image: fastgpt-proxy
+
+    environment:
+      - KAGI_API_KEY=${KAGI_API_KEY}
+      - API_KEY=${API_KEY:-dummy}  # Default to 'dummy' if not provided
+
+    ports:
+      - "5000:5000"
