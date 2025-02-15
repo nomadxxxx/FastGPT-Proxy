@@ -1,6 +1,6 @@
 # FastGPT Proxy: Project Overview
 ### 1. What is FastGPT Proxy?
-FastGPT Proxy is a lightweight proxy allowing FastGPT API to be OpenAI-compatible. This allows FastGPT(ChatGPT 4o varient) to be used as a model in services like Open WebUI whcih provides STT and TTS, letting you use the 'call' and 'record to send' functions (this is currently unvailable on FastGPT portal).
+FastGPT Proxy is a lightweight proxy allowing FastGPT API to be OpenAI-compatible. This allows FastGPT(ChatGPT 4o varient) to be used as a model in services like [Open WebUI](https://github.com/open-webui/open-webui) which provides STT and TTS, letting you use the 'call' and 'record to send' functions (this is currently unvailable on default FastGPT portal).
 ### 2. Technical Stack  
 | Component          | Technology                              | Purpose                                  |
 |--------------------|-----------------------------------------|------------------------------------------|
@@ -25,7 +25,7 @@ Functional Constraints
 - Optional Parameter Support : Not all OpenAI parameters (e.g., temperature, top_p) etc.
      
 ### 5. Future Enhancements  
-- If Kagi decides to offer the models they already offer in with their Kagi Assistant, I will develop a model pull script like what OpenWeb UI provides for OpenRouter.
+- If Kagi decides to offer the models they already offer in with their Kagi Assistant, I will develop a model pull script like what OpenWeb UI provides for OpenRouter: see https://openwebui.com/t/yikesawjeez/yikes_openrouter
 - Streaming Support : SSE (Server-Sent Events) for real-time text generation.  
 
      
